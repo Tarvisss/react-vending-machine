@@ -1,0 +1,15 @@
+#Img-Background {
+    position: absolute;
+    display: flex;                /* Use Flexbox for centering */
+    justify-content: center;      /* Horizontally center the content */
+    align-items: center;          /* Vertically center the content */
+    background-image: url("https://images.stockcake.com/public/c/5/f/c5f6467f-8a20-42c1-bdf2-5e731da03635/abandoned-vending-machine-stockcake.jpg");
+    background-size: cover;       /* Ensure background covers entire container */
+    background-position: center;
+    z-index: 0; /* Center the background image */
+    width: 100vw;                 /* Full viewport width */
+    height: 100vh;                /* Full viewport height */
+    text-align: center;           /* Horizontally center text inside */
+                     /* Set text color */
+}
+
